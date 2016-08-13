@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+ip=$(hostname -I)
+host=$(hostname -f)
+on_host=$(pwd)
+
+echo [ $ip] $host :: $on_host
+
